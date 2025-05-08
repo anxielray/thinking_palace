@@ -1,0 +1,46 @@
+.LoadingDots_root__L3YhM {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    line-height: 1.75rem
+}
+
+.LoadingDots_root__L3YhM span {
+    height: .5rem;
+    width: .5rem;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(39 39 42/var(--tw-bg-opacity));
+    animation-name: LoadingDots_blink__8sST9;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    margin: 0 2px
+}
+
+.LoadingDots_root__L3YhM span:nth-of-type(2) {
+    animation-delay: .2s
+}
+
+.LoadingDots_root__L3YhM span:nth-of-type(3) {
+    animation-delay: .4s
+}
+
+@keyframes LoadingDots_blink__8sST9 {
+    0% {
+        opacity: .2
+    }
+
+    20% {
+        opacity: 1
+    }
+
+    to {
+        opacity: .2
+    }
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
