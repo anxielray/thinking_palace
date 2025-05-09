@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Explore Articles — Thinking Palace</title>
   <link rel="stylesheet" href="../css/styles_1.css" />
+  <link rel="stylesheet" href="css/upgrade.css" data-precedence="next">
   <link rel="stylesheet" href="../css/styles_2.css" />
 </head>
+
 <body class="bg-black text-white font-ocean">
   <main class="min-h-screen overflow-y-auto bg-gradient-to-b from-gray-900 via-black to-gray-900 scrollbar-hide">
     <!-- Header -->
@@ -16,12 +19,14 @@
           Thinking Palace
         </a>
         <div class="sm:hidden">
-          <button type="button" class="hs-collapse-toggle inline-flex items-center justify-center p-2 rounded-md border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition" aria-controls="navbar-collapse" aria-label="Toggle navigation" data-hs-collapse="#navbar-collapse">
+          <button type="button"
+            class="hs-collapse-toggle inline-flex items-center justify-center p-2 rounded-md border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition"
+            aria-controls="navbar-collapse" aria-label="Toggle navigation" data-hs-collapse="#navbar-collapse">
             <svg class="hs-collapse-open:hidden h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
             <svg class="hs-collapse-open:block hidden h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
         </div>
@@ -43,40 +48,101 @@
     </section>
 
     <!-- Articles Grid -->
-    <section class="max-w-screen-2xl mx-auto px-6 pb-24 grid gap-12 md:grid-cols-2 lg:grid-cols-3">
-      <!-- Card -->
-      <article class="group bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
-        <img src="https://images.pexels.com/photos/1314543/pexels-photo-1314543.jpeg" alt="Mathematical Universes" class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300" />
+    <!-- <section class="max-w-screen-2xl mx-auto px-6 pb-24 grid gap-12 md:grid-cols-2 lg:grid-cols-3"> -->
+    <!-- Card -->
+    <!-- <article
+        class="group bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
+        <img src="https://images.pexels.com/photos/1314543/pexels-photo-1314543.jpeg" alt="Mathematical Universes"
+          class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300" />
         <div class="p-6">
           <h2 class="text-xl font-semibold text-white">Mathematical Universes</h2>
           <p class="mt-2 text-gray-400 text-sm">Exploring abstract math worlds beyond numbers.</p>
         </div>
-      </article>
+      </article> -->
 
-      <article class="group bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
-        <img src="https://images.pexels.com/photos/25626445/pexels-photo-25626445.jpeg" alt="Quantum Twist" class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300" />
+    <!-- <article
+        class="group bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
+        <img src="https://images.pexels.com/photos/25626445/pexels-photo-25626445.jpeg" alt="Quantum Twist"
+          class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300" />
         <div class="p-6">
           <h2 class="text-xl font-semibold text-white">The Quantum Twist</h2>
           <p class="mt-2 text-gray-400 text-sm">Breaking down quantum mechanics into pure clarity.</p>
         </div>
+      </article> -->
+
+    <!-- <article
+        class="group bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
+        <img src="https://images.pexels.com/photos/17483867/pexels-photo-17483867.jpeg" alt="Chaos & Order"
+          class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300" />
+        <div class="p-6">
+          <h2 class="text-xl font-semibold text-white">Chaos & Order</h2>
+          <p class="mt-2 text-gray-400 text-sm">The science behind how randomness creates systems.</p>
+        </div>
+      </article> -->
+
+    <!-- You can duplicate this block to (https://www.3blue1brown.com/content/lessons/2019/prime-spirals/galactic_zoomout.png)  add more articles -->
+    <!-- </section> -->
+    <section class="max-w-screen-2xl mx-auto px-6 pb-24 grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Card -->
+      <article
+        class="group bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
+        <img src="https://www.3blue1brown.com/content/lessons/2019/prime-spirals/galactic_zoomout.png"
+          alt="Mathematical Universes"
+          class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300" />
+        <a href="article-prime.html">
+          <div class="p-6">
+            <h2 class="text-xl font-semibold text-white">Prime Numbers Distribution</h2>
+            <p class="mt-2 text-gray-400 text-sm">The Untouchables of Math: Unlocking the Power of Primes.</p>
+          </div>
+        </a>
       </article>
 
-      <article class="group bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
+      <article
+        class="group bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
+        <img src="https://www.futilitycloset.com/wp-content/uploads/2016/07/2016-07-14-a-square-triangle.png"
+          alt="Quantum Twist"
+          class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300" />
+        <a href="pascals.html">
+          <div class="p-6">
+            <h2 class="text-xl font-semibold text-white">Pasca'l Triangle</h2>
+            <p class="mt-2 text-gray-400 text-sm">Explainiing the logic underscheming the Binomial Expansion
+              methodolygy.
+            </p>
+          </div>
+        </a>
+      </article>
+
+      <!-- <article class="group bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
         <img src="https://images.pexels.com/photos/17483867/pexels-photo-17483867.jpeg" alt="Chaos & Order" class="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300" />
         <div class="p-6">
           <h2 class="text-xl font-semibold text-white">Chaos & Order</h2>
           <p class="mt-2 text-gray-400 text-sm">The science behind how randomness creates systems.</p>
         </div>
-      </article>
+      </article> -->
 
-      <!-- You can duplicate this block to add more articles -->
+      <!-- You can duplicate this block to (https://www.3blue1brown.com/content/lessons/2019/prime-spirals/galactic_zoomout.png)  add more articles -->
     </section>
 
     <!-- Footer -->
     <footer class="bg-black border-t border-gray-700 p-8 text-center text-gray-500 text-sm">
-      Created by Raymond Martin · <a class="text-blue-500 hover:underline" href="https://github.com/anxielray">GitHub</a> · 
+      Created by Raymond Martin · <a class="text-blue-500 hover:underline"
+        href="https://github.com/anxielray">GitHub</a> ·
       <a class="text-blue-500 hover:underline" href="https://martinraymondogwel.netlify.app">Portfolio</a>
     </footer>
   </main>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']], // Inline math
+        displayMath: [['$$', '$$'], ['\\[', '\\]']] // Block math
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" defer></script>
+
 </body>
+
 </html>

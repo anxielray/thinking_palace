@@ -44,3 +44,48 @@
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
 }
+
+#navbar-collapse {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    #navbar-collapse {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        /* equivalent to Tailwind's space-x-8 */
+        transition: all 0.3s ease;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    #navbar-collapse a {
+        position: relative;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding-bottom: 4px;
+        transition: color 0.3s ease;
+    }
+
+    #navbar-collapse a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 0%;
+        background-color: #3b82f6;
+        /* Tailwind's blue-500 */
+        transition: width 0.3s ease;
+    }
+
+    #navbar-collapse a:hover {
+        color: #3b82f6;
+    }
+
+    #navbar-collapse a:hover::after {
+        width: 100%;
+    }
+}
