@@ -1,10 +1,10 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/styles_1.css" data-precedence="next">
-    <link rel="stylesheet" href="css/styles_2.css" data-precedence="next">
-    <link rel="stylesheet" href="css/upgrade.css" data-precedence="next">
-    <script src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" nomodule=""></script>
+    <link rel="stylesheet" href="static/css/styles_1.css" data-precedence="next">
+    <link rel="stylesheet" href="static/css/styles_2.css" data-precedence="next">
+    <link rel="stylesheet" href="static/css/upgrade.css" data-precedence="next">
+    <script type="text/javasrctipt" src="static/js/router.js"></script>
     <meta charset="utf-8">
     <title>Thinking Palace</title>
     <meta name="description"
@@ -15,7 +15,7 @@
 
 <body class="loading bg-black" data-new-gr-c-s-check-loaded="14.1234.0" data-gr-ext-installed="">
     <main
-        class="min-h-screen overflow-y-auto bg-gradient-to-b from-gray-900 via-black to-gray-900 text-white scrollbar-hide">
+        class="app min-h-screen overflow-y-auto bg-gradient-to-b from-gray-900 via-black to-gray-900 text-white scrollbar-hide">
         <!-- Header -->
         <header class="sticky top-0 z-50 bg-black shadow-md border-b border-gray-700">
             <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -45,31 +45,49 @@
 
                 <!-- Navigation Links -->
                 <nav id="navbar-collapse">
-                    <a href="/thinking_palace">Home</a>
-                    <a href="/thinking_palace/pages/explore.html">Articles</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
+                    <a href="/thinking_palace/" onclick="navigateTo('/thinking_palace/'); return false;">Home</a>
+                    <a href="/thinking_palace/articles"
+                        onclick="navigateTo('/thinking_palace/articles'); return false;">Articles</a>
+                    <a href="/thinking_palace/about"
+                        onclick="navigateTo('/thinking_palace/about'); return false;">About</a>
+                    <a href="/thinking_palace/contact"
+                        onclick="navigateTo('/thinking_palace/contact'); return false;">Contact</a>
                 </nav>
             </div>
         </header>
         <div>
             <section id="hero-0vgQEo" class="text-blue-100 font-ocean"
-                style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(&quot;https://images.pexels.com/photos/25626518/pexels-photo-25626518.jpeg&quot;); background-size: cover; background-position: center center; height: 100%;">
+                style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/25626518/pexels-photo-25626518.jpeg'); background-size: cover; background-position: center center; min-height: 100vh;">
+
                 <div class="container max-w-screen-2xl mx-auto flex px-5 py-24 pt-64 md:flex-row flex-col items-center">
                     <div
-                        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center ">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-100">
-                            Welcome to Thinking Palace</h1>
-                        <p class="mb-8 leading-relaxed">A futuristic haven for free-thinking minds, math
-                            lovers, and science nerds</p>
-                        <div class="flex justify-center"><a class="inline-flex 
-      text-blue-100
-      bg-blue-500
-      hover:bg-blue-700
-     border-0 py-2 px-6 focus:outline-none rounded text-lg" href="pages/explore.html">Explore Articles</a></div>
+                        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center md:text-left">
+
+                        <h1 class="sm:text-5xl text-4xl mb-6 font-extrabold text-blue-100 leading-tight drop-shadow">
+                            Welcome to <span class="text-blue-400">Thinking Palace</span>
+                        </h1>
+
+                        <p class="mb-6 leading-relaxed text-blue-200 text-lg max-w-xl">
+                            A futuristic haven for minds wired by logic, math dreams, and scientific curiosity.<br />
+                            Here, numbers dance, particles collide, and your ideas are never boxed.
+                        </p>
+
+                        <!-- Nerdy Rotating Phrase -->
+                        <div class="text-sm font-mono text-blue-300 tracking-wide mb-8">
+                            > currently thinking about: <span id="nerd-type" class="text-blue-500"></span><span
+                                class="blinking-cursor">| Number Theory > Prime Numbers</span>
+                        </div>
+
+                        <div class="flex justify-center md:justify-start">
+                            <a href="/thinking_palace/articles"
+                                class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-md shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                📚 Explore Articles
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
+
         </div>
         <div>
             <div id="features-aD1wh7" class="px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto font-ocean bg-black">
@@ -297,6 +315,7 @@
         </div>
         </div>
     </main>
+
 </body>
 
 </html>

@@ -1,0 +1,113 @@
+/* === Matrix-Style Loading Dots === */
+.LoadingDots_root__L3YhM {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    line-height: 1.75rem;
+    gap: 0.25rem;
+    filter: drop-shadow(0 0 4px rgba(0, 255, 170, 0.6));
+  }
+  
+  .LoadingDots_root__L3YhM span {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 9999px;
+    background-color: rgb(16 185 129 / var(--tw-bg-opacity, 1)); /* emerald-500 */
+    animation: blink 1.4s infinite both;
+    margin: 0 2px;
+    box-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
+  }
+  
+  .LoadingDots_root__L3YhM span:nth-of-type(2) {
+    animation-delay: 0.2s;
+  }
+  .LoadingDots_root__L3YhM span:nth-of-type(3) {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 0.2;
+      transform: scale(0.9);
+    }
+    20% {
+      opacity: 1;
+      transform: scale(1.15);
+    }
+  }
+  
+  /* === Scrollbar Hiding for Clean UX === */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* === Futuristic Nav Styling === */
+  #navbar-collapse {
+    display: none;
+  }
+  
+  @media (min-width: 640px) {
+    #navbar-collapse {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+  
+    #navbar-collapse a {
+      position: relative;
+      display: inline-block;
+      color: #ffffff;
+      text-decoration: none;
+      padding-bottom: 4px;
+      transition: all 0.3s ease;
+      text-shadow: 0 0 5px rgba(59, 130, 246, 0.6); /* glow */
+    }
+  
+    #navbar-collapse a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 2px;
+      width: 0%;
+      background: linear-gradient(90deg, #0ea5e9, #6366f1); /* cyan to indigo */
+      transition: width 0.3s ease;
+    }
+  
+    #navbar-collapse a:hover {
+      color: #0ea5e9; /* cyan-500 */
+      text-shadow: 0 0 8px #0ea5e9;
+    }
+  
+    #navbar-collapse a:hover::after {
+      width: 100%;
+    }
+  }
+  
+  /* === Optional Nerdy Background (Matrix Code / Equations) === */
+  
+  body::before {
+    content: "∑ π ∞ √ ∫ Δ ∂ λ ⊕ α β γ ∇";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.015);
+    font-size: 6rem;
+    font-family: monospace;
+    pointer-events: none;
+    z-index: 999;
+    white-space: nowrap;
+    animation: floatMath 30s linear infinite;
+  }
+ 
+  
+  @keyframes floatMath {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+  }
+  
