@@ -87,235 +87,298 @@
                     </div>
                 </div>
             </section>
+        </div>
+        <section id="features-aD1wh7" class="bg-black font-ocean px-4 py-16 sm:px-6 lg:px-8">
+            <div class="max-w-screen-2xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-12">
 
-        </div>
-        <div>
-            <div id="features-aD1wh7" class="px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto font-ocean bg-black">
-                <div class="relative bg-bg-black max-w-screen-2xl m-auto">
+                <!-- IMAGE SECTION -->
+                <div class="w-full lg:w-1/2">
+                    <img src="https://images.pexels.com/photos/7722921/pexels-photo-7722921.jpeg"
+                        alt="Curious exploration"
+                        class="zoom-image rounded-xl shadow-xl shadow-blue-900 max-h-[500px] w-full object-cover" />
+                </div>
+
+                <!-- FEATURES TEXT SECTION -->
+                <div class="w-full lg:w-1/2">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white mb-8">Why <span class="text-blue-400">Thinking
+                            Palace</span>?</h2>
+
+                    <!-- TABS -->
+                    <div class="space-y-4" id="features-tab-group">
+                        <button
+                            class="feature-tab w-full text-left bg-gray-900 rounded-lg p-5 border border-gray-700 hover:border-blue-500 transition-all"
+                            data-feature="freedom">
+                            <h3 class="text-lg font-semibold text-white">🧠 Freedom of Thought</h3>
+                            <p class="text-gray-400 mt-1 text-sm">A sanctuary for unfettered mental exploration. No
+                                boundaries, no bias—just raw intellectual fire.</p>
+                        </button>
+                        <button
+                            class="feature-tab w-full text-left bg-gray-900 rounded-lg p-5 border border-gray-700 hover:border-blue-500 transition-all"
+                            data-feature="knowledge">
+                            <h3 class="text-lg font-semibold text-white">📚 Unpaid Knowledge</h3>
+                            <p class="text-gray-400 mt-1 text-sm">Intellect should never hide behind a paywall.
+                                Everything here is free, open, and forever curious.</p>
+                        </button>
+                        <button
+                            class="feature-tab w-full text-left bg-gray-900 rounded-lg p-5 border border-gray-700 hover:border-blue-500 transition-all"
+                            data-feature="updates">
+                            <h3 class="text-lg font-semibold text-white">🔄 Weekly Explorations</h3>
+                            <p class="text-gray-400 mt-1 text-sm">New discoveries and deep dives, every single week.
+                                Because thought never sleeps.</p>
+                        </button>
+                    </div>
+
+                    <!-- ACTIVE DESCRIPTION AREA (Optional JS expansion area) -->
+                    <div class="mt-8 text-blue-300 text-sm hidden" id="feature-description-box">
+                        <!-- JS could dynamically inject more info here if needed -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="border-gray-700 w-full my-8 pb-6" />
+        <section id="features-2 blog-XhUbQx" class="pt-6 bg-black font-ocean px-4 py-20 sm:px-6 lg:px-8">
+            <h2 style="position:relative; left: 35%;" class="text-3xl sm:text-4xl font-bold text-white mb-8">Featured on
+                <span class="text-blue-400">Thinking
+                    Palace</span>
+            </h2>
+            <div class="max-w-screen-2xl mx-auto">
+                <div class="grid lg:grid-cols-2 gap-12">
+
+                    <!-- BLOG CARD -->
+                    <article
+                        class="group relative bg-gray-900 rounded-xl overflow-hidden shadow-md transition-all hover:shadow-blue-800/40">
+                        <div class="sm:flex">
+
+                            <!-- Fix: Image is NOT absolutely positioned -->
+                            <div class="flex-shrink-0 w-full sm:w-56 h-44 overflow-hidden rounded-xl">
+                                <img src="https://www.3blue1brown.com/content/lessons/2019/prime-spirals/galactic_zoomout.png"
+                                    alt="Prime numbers in archmedian spiral"
+                                    class="zoom-image w-full h-full object-cover transform transition-transform duration-700 ease-in-out group-hover:scale-110" />
+                            </div>
+
+                            <!-- Text -->
+                            <div class="grow p-5">
+                                <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-blue-400 transition">
+                                    Prime Numbers Distribution
+                                </h3>
+                                <p class="text-gray-400 text-sm mb-4">
+                                    Dive into spaces beyond Euclidean logic — topology, infinite graphs, Gödel's loops, Euler's conjecture.
+                                </p>
+                                <a href="/thinking_palace/article-prime.html"
+                                    class="text-sm text-blue-400 hover:underline font-mono inline-flex items-center gap-1 group-hover:gap-2 transition-all duration-300">
+                                    Read more →
+                                </a>
+                            </div>
+
+                        </div>
+                    </article>
+
+                    <!-- BLOG CARD -->
+                    <article
+                        class="group relative bg-gray-900 rounded-xl overflow-hidden shadow-md transition-all hover:shadow-blue-800/40">
+                        <div class="sm:flex">
+                            <!-- Image -->
+                            <div class="flex-shrink-0 relative w-full sm:w-56 h-44 overflow-hidden rounded-xl">
+                                <img src="https://www.futilitycloset.com/wp-content/uploads/2016/07/2016-07-14-a-square-triangle.png"
+                                    alt="The Quantum Twist"
+                                    class="zoom-image absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110 group-hover:rotate-[0.5deg]" />
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-br from-transparent to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                                </div>
+                            </div>
+
+                            <!-- Text -->
+                            <div class="grow p-5">
+                                <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-blue-400 transition">
+                                    Pascal's Triangle
+                                </h3>
+                                <!-- <p class="text-gray-400 text-sm mb-4">
+                                    What if Schrödinger's cat coded your neural net? Superpositions, qubit algorithms,
+                                    and entanglement explained without the woo.
+                                </p> -->
+                                <p class="text-gray-400 text-sm mb-4">
+                                    What if peple have understood the Pascal's triangle in the wrong way for centuries?
+                                </p>
+                                <a href="/thinking_palace/pages/pascals.html"
+                                    class="read-more-btn text-sm text-blue-400 hover:underline font-mono inline-flex items-center gap-1 group-hover:gap-2 transition-all duration-300">
+                                    Read more →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- BLOG CARD -->
+                    <!-- <article
+                        class="group relative bg-gray-900 rounded-xl overflow-hidden shadow-md transition-all hover:shadow-blue-800/40">
+                        <div class="sm:flex">
+                            --Image--
+                            <div class="flex-shrink-0 relative w-full sm:w-56 h-44 overflow-hidden rounded-xl">
+                                <img src="https://images.pexels.com/photos/17483867/pexels-photo-17483867.jpeg"
+                                    alt="Chaos & Order"
+                                    class="zoom-image absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110 group-hover:rotate-[0.5deg]" />
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-br from-transparent to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                                </div>
+                            </div>
+
+                            !-- Text --
+                            <div class="grow p-5">
+                                <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-blue-400 transition">
+                                    Chaos &amp; Order
+                                </h3>
+                                <p class="text-gray-400 text-sm mb-4">
+                                    Chaos theory meets information entropy. Mandelbrot meets machine learning. How
+                                    disorder writes structure into code.
+                                </p>
+                                <a href="#"
+                                    class="read-more-btn text-sm text-blue-400 hover:underline font-mono inline-flex items-center gap-1 group-hover:gap-2 transition-all duration-300">
+                                    Read more →
+                                </a>
+                            </div>
+                        </div>
+                    </article> -->
+
+                </div>
+            </div>
+        </section>
+        <hr class="border-gray-700 w-full my-8 mt-10" />
+
+        <section id="contacts-60xTE5" class="bg-black text-white font-ocean px-4 py-16 sm:px-6 lg:px-8">
+            <div class="max-w-screen-2xl mx-auto">
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-blue-400 mb-12 text-center">> Let's Get in Touch
+                </h2>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                    <!-- Email -->
                     <div
-                        class="relative flex w-full flex-col lg:flex-row items-center justify-center gap-4 lg:gap-12 flex-col lg:flex-row-reverse">
-                        <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 w-full lg:w-1/2 ">
-                            <h2 class="text-2xl text-white font-bold sm:text-3xl">Why Thinking Palace?
-                            </h2>
-                            <nav class="grid lg:gap-10 mt-5 md:mt-10 gap-5" aria-label="Tabs" role="tablist"><button
-                                    type="button"
-                                    class="hover:bg-gray-800 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start p-4 md:p-5 rounded-xl dark:focus:outline-none dark:focus:ring-1 active"
-                                    id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1"
-                                    aria-controls="tabs-with-card-1" role="tab"><span class="flex"><span
-                                            class="grow"><span class="block text-lg font-semibold text-white">Freedom
-                                                of Thought</span><span class="block mt-1 text-gray-400">We
-                                                create a space where
-                                                scientific genius and creative math minds thrive
-                                                freely.</span></span></span></button><button type="button"
-                                    class="hover:bg-gray-800 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start p-4 md:p-5 rounded-xl dark:focus:outline-none dark:focus:ring-1 active"
-                                    id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1"
-                                    aria-controls="tabs-with-card-1" role="tab"><span class="flex"><span
-                                            class="grow"><span class="block text-lg font-semibold text-white">Unpaid
-                                                Knowledge</span><span class="block mt-1 text-gray-400">All
-                                                articles and
-                                                deductions are free to access—because intellect should
-                                                never be behind a
-                                                paywall.</span></span></span></button><button type="button"
-                                    class="hover:bg-gray-800 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start p-4 md:p-5 rounded-xl dark:focus:outline-none dark:focus:ring-1 active"
-                                    id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1"
-                                    aria-controls="tabs-with-card-1" role="tab"><span class="flex"><span
-                                            class="grow"><span class="block text-lg font-semibold text-white">Weekly
-                                                Explorations</span><span class="block mt-1 text-gray-400">We
-                                                update content
-                                                weekly with new scientific and mathematical
-                                                revelations.</span></span></span></button></nav>
-                        </div>
-                        <div class=" w-full lg:w-1/2">
-                            <div class="relative w-full">
-                                <div>
-                                    <div id="tabs-with-card-1" class="tabpanel" aria-labelledby="tabs-with-card-item-1">
-                                        <img class="shadow-xl shadow-gray-800 max-h-[550px] rounded-xl dark:shadow-gray-900/[.2]"
-                                            src="https://images.pexels.com/photos/7722921/pexels-photo-7722921.jpeg"
-                                            alt="Image Description">
-                                    </div>
-                                </div>
+                        class="group bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-blue-700 transition-shadow duration-300">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-14 h-14 bg-blue-500 rounded-md transition-all group-hover:scale-110">
+                                <!-- Email Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-gray-400 text-sm mb-1">Email</p>
+                                <a href="mailto:anxilelworld@gmail.com"
+                                    class="font-bold text-white underline hover:no-underline">mathgeniusphysicist@gmail.com</a>
                             </div>
                         </div>
                     </div>
+
+                    <!-- WhatsApp -->
+                    <div
+                        class="group bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-green-600 transition-shadow duration-300">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-14 h-14 bg-green-500 rounded-md transition-all group-hover:scale-110">
+                                <!-- WhatsApp Icon -->
+                                <svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-gray-400 text-sm mb-1">WhatsApp</p>
+                                <a href="https://wa.me/254111801110"
+                                    class="font-bold text-white underline hover:no-underline">+254 1118 01110</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn -->
+                    <div
+                        class="group bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-blue-600 transition-shadow duration-300">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="flex items-center justify-center w-14 h-14 bg-blue-700 rounded-md transition-all group-hover:scale-110">
+                                <!-- LinkedIn Icon -->
+                                <svg class="w-6 h-6 text-white" viewBox="0 0 16 16" fill="none">
+                                    <path fill="white"
+                                        d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728v3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-gray-400 text-sm mb-1">LinkedIn</p>
+                                <a href="https://www.linkedin.com/in/raymond-ogwel/"
+                                    class="font-bold text-white underline hover:no-underline">Raymond Martin</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <div>
-            <div id="blog-XhUbQx" class="px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto  bg-black  font-ocean">
-                <div class="grid lg:grid-cols-2 lg:gap-y-16 max-w-screen-2xl gap-10 mx-auto">
-                    <div>
-                        <div class="group rounded-xl overflow-hidden">
-                            <div class="sm:flex">
-                                <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-                                    <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                                        src="https://images.pexels.com/photos/1314543/pexels-photo-1314543.jpeg"
-                                        alt="Image Description">
-                                </div>
-                                <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                                    <h3 class="text-xl font-semibold  text-white">Mathematical Universes
-                                    </h3>
-                                    <p class="mt-3  text-gray-400">Exploring abstract math worlds beyond
-                                        numbers.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="group rounded-xl overflow-hidden">
-                            <div class="sm:flex">
-                                <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-                                    <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                                        src="https://images.pexels.com/photos/25626445/pexels-photo-25626445.jpeg"
-                                        alt="Image Description">
-                                </div>
-                                <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                                    <h3 class="text-xl font-semibold  text-white">The Quantum Twist</h3>
-                                    <p class="mt-3  text-gray-400">Breaking down quantum mechanics into
-                                        pure clarity.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="group rounded-xl overflow-hidden">
-                            <div class="sm:flex">
-                                <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-                                    <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                                        src="https://images.pexels.com/photos/17483867/pexels-photo-17483867.jpeg"
-                                        alt="Image Description">
-                                </div>
-                                <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                                    <h3 class="text-xl font-semibold  text-white">Chaos &amp; Order</h3>
-                                    <p class="mt-3  text-gray-400">The science behind how randomness
-                                        creates systems.</p>
-                                </div>
-                            </div>
-                        </div>
+        </section>
+
+        <footer id="footer" class="bg-black border-t border-gray-700 font-ocean text-white py-12 px-4 md:px-8">
+            <div class="mb-6 max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+
+                <!-- Brand & Credit -->
+                <div>
+                    <h2
+                        class="text-2xl md:text-3xl font-extrabold text-white mb-3 tracking-wide hover:tracking-widest transition-all duration-300">
+                        Thinking Palace
+                    </h2>
+                    <p class="m-4 text-gray-400 text-sm max-w-md leading-relaxed">
+                        Built by Raymond Martin — an INTP mind bent on mathematical clarity, philosophical rebellion,
+                        and scientific generosity.
+                    </p>
+                    <div class="mt-4 text-sm space-x-4">
+                        <a href="https://github.com/anxielray" class="text-blue-400 hover:underline"
+                            target="_blank">GitHub</a>
+                        <a href="https://martinraymondogwel.netlify.app" class="text-blue-400 hover:underline"
+                            target="_blank">Portfolio</a>
                     </div>
                 </div>
+
+                <!-- Navigation -->
+                <div>
+                    <h3 class="text-sm text-gray-400 uppercase font-bold mb-4 tracking-widest">Navigation</h3>
+                    <nav class="flex flex-col gap-2 text-sm">
+                        <a href="/thinking_palace" class="text-gray-400 hover:text-blue-500 transition-all">Home</a>
+                        <a href="/thinking_palace/pages/explore.html"
+                            class="text-gray-400 hover:text-blue-500 transition-all">Articles</a>
+                        <a href="/thinking_palace/pages/about.html"
+                            class="text-gray-400 hover:text-blue-500 transition-all">About</a>
+                        <a href="/thinking_palace/pages/contact.html"
+                            class="text-gray-400 hover:text-blue-500 transition-all">Contact</a>
+                    </nav>
+                </div>
+
+                <!-- Optional: Signature or Quote -->
+                <div class="hidden lg:block">
+                    <h3 class="text-sm text-gray-400 uppercase font-bold mb-4 tracking-widest">Philosophy</h3>
+                    <p class="text-blue-300 text-sm italic">
+                        “Genius is not commercial. It’s free, thoughtful, recursive.”
+                        <br>— Thinking Palace
+                    </p>
+                </div>
             </div>
-        </div>
-        <div>
-            <div id="contacts-60xTE5" class="mx-auto px-4 py-10 sm:px-6 lg:px-8 lg:py-14  bg-black  font-ocean">
-                <!-- <div style="height: 2px; background-color: rgb(75 85 99); margin: 1.5em; width: 100%;"></div> -->
-                <section class="max-w-screen-2xl mx-auto">
-                    <div class="block rounded-lg">
-                        <div class="flex w-full items-center gap-20 justify-center xl:flex-nowrap flex-wrap ">
-                            <div class="w-full lg:w-3/4 ">
-                                <h2 class="font-bold text-3xl lg:text-4xl text-white mb-10">Contacts
-                                </h2>
-                                <div class="flex flex-wrap md:pb-0 lg:pt-0">
-                                    <div class="mb-12 shrink-0 grow-0 basis-auto px-3 sm:w-[49%] w-full">
-                                        <div class="flex items-start">
-                                            <div class="shrink-0">
-                                                <div class="flex w-[60px] h-[60px] items-center justify-center rounded-md p-4 
-    text-white
-    bg-blue-500"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                                        stroke="currentColor" class="w-6 h-6">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75">
-                                                        </path>
-                                                    </svg></div>
-                                            </div>
-                                            <div class="ml-6 shrink-0">
-                                                <p class="text-gray-400">Email</p><a
-                                                    class="mb-2 max-w-[180px] sm:max-w-[250px] underline hover:no-underline font-bold text-white"
-                                                    href="mailto:anxilelworld@gmail.com">anxilelworld@gmail.com</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="mb-12 shrink-0 grow-0 basis-auto px-3 sm:w-[49%] w-full">
-                                        <div class="flex items-start">
-                                            <div class="shrink-0">
-                                                <div class="flex w-[60px] h-[60px] items-center justify-center rounded-md p-4 
-    text-white
-    bg-blue-500"><svg class="w-[30px] h-[30px] flex-shrink-0" viewBox="0 0 24 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <g stroke-width="0"></g>
-                                                        <g stroke-linecap="round" stroke-linejoin="round">
-                                                        </g>
-                                                        <g id="SVGRepo_iconCarrier">
-                                                            <path
-                                                                d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043L8.23339 6.00894C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801C5.97237 8.24048 5.99955 8.12044 6.014 8.00613Z"
-                                                                fill="#ffffff"></path>
-                                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z"
-                                                                fill="#ffffff"></path>
-                                                        </g>
-                                                    </svg></div>
-                                            </div>
-                                            <div class="ml-6 shrink-0">
-                                                <p class="text-gray-400">Whatsapp</p><a
-                                                    class="mb-2 max-w-[180px] sm:max-w-[250px] underline hover:no-underline font-bold text-white"
-                                                    href="https://wa.me/254111801110">+254 1118
-                                                    01110</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="mb-12 shrink-0 grow-0 basis-auto px-3 sm:w-[49%] w-full">
-                                        <div class="flex items-start">
-                                            <div class="shrink-0">
-                                                <div class="flex w-[60px] h-[60px] items-center justify-center rounded-md p-4 
-    text-white
-    bg-blue-500"><svg class="w-[30px] h-[30px] flex-shrink-0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
-                                                        fill="none">
-                                                        <g stroke-width="0"></g>
-                                                        <g stroke-linecap="round" stroke-linejoin="round">
-                                                        </g>
-                                                        <g id="SVGRepo_iconCarrier">
-                                                            <path fill="#ffffff"
-                                                                d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z">
-                                                            </path>
-                                                        </g>
-                                                    </svg></div>
-                                            </div>
-                                            <div class="ml-6 shrink-0">
-                                                <p class="text-gray-400">Linkedin</p><a
-                                                    class="mb-2 max-w-[180px] sm:max-w-[250px] underline hover:no-underline font-bold text-white"
-                                                    href="https://www.linkedin.com/in/raymond-ogwel/">LinkedIn</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
+            <!-- Bottom -->
+            <div class="mt-12 text-center text-xs text-gray-600">
+                &copy; <span id="footer-year">2025</span> Thinking Palace. All rights respected, none restricted.
             </div>
-        </div>
-        <div>
-            <div id="footer"
-                class="bg-black font-ocean p-4 sm:pt-10 lg:p-12 border-t-[1px] border-solid border-gray-600">
-                <footer class="mx-auto max-w-screen-2xl px-4 md:px-8">
-                    <div class="mb-16 flex flex-col md:flex-row md:gap-12 gap-4 pt-10 lg:gap-8 lg:pt-12">
-                        <div class="col-span-full lg:col-span-2">
-                            <div class="mb-4 lg:-mt-2"><a
-                                    class="text-white inline-flex items-center gap-2 text-xl font-bold md:text-2xl"
-                                    aria-label="logo" href="/">
-                                    <p class="max-w-[700px]">Thinking Palace</p>
-                                </a></div>
-                            <p class="text-gray-400 max-w-[500px] mb-6 sm:pr-8">
-                                Created by Raymond
-                                Martin | <a href="https://github.com/anxielray">Github</a> | <a
-                                    href="https://martinraymondogwel.netlify.app">Portfolio:</a></p>
-                        </div>
-                        <div>
-                            <div class="text-gray-400 mb-4 font-bold tracking-widest">Navigation</div>
-                            <nav class="flex flex-col gap-4">
-                                <div><a class="text-gray-400 hover:text-blue-500 active:text-blue-600 transition duration-100"
-                                        href="/">Home</a></div>
-                            </nav>
-                        </div>
-                    </div>
-                </footer>
-            </div>
-        </div>
+        </footer>
+
         </div>
         </div>
         </div>
         </div>
     </main>
 
+    <script>
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
