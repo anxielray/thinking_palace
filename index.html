@@ -1,186 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thinking Palace | Portfolio of Raymond Martin</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <style>
-    canvas { display: block; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thinking Palace | Portfolio of Raymond Martin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        canvas {
+            display: block;
+        }
+    </style>
 </head>
+
 <body class="bg-black text-gray-100 font-sans">
 
-  <!-- HERO -->
-  <section id="hero" class="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 via-black to-gray-900 overflow-hidden">
-    <canvas id="particle-bg" class="absolute inset-0 z-0"></canvas>
+    <!-- HERO -->
+    <section id="hero"
+        class="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 via-black to-gray-900 overflow-hidden">
+        <canvas id="particle-bg" class="absolute inset-0 z-0"></canvas>
 
-    <div class="relative z-10 max-w-4xl text-center px-6">
-      <h1 class="sm:text-6xl text-4xl font-extrabold text-blue-100 leading-tight drop-shadow mb-6">
-        Welcome to <span class="text-blue-400">Thinking Palace</span>
-      </h1>
-      <p class="mb-8 text-blue-200 text-lg max-w-2xl mx-auto">
-        A futuristic haven for minds wired by logic, math dreams, and scientific curiosity.  
-        Here, numbers dance, particles collide, and your ideas are never boxed.
-      </p>
-      <p class="font-mono text-blue-300 text-sm mb-6">
-        &gt; currently exploring: <span id="typed-ideas" class="text-blue-500"></span>
-      </p>
-      <a href="#overview" 
-         class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-md shadow-lg transition-all duration-300 transform hover:scale-105">
-        🚀 Explore Portfolio
-      </a>
-    </div>
-  </section>
-
-  <!-- OVERVIEW SECTION -->
-  <section id="overview" class="bg-gray-950 px-6 py-20">
-    <div class="max-w-screen-xl mx-auto">
-      <h2 class="text-4xl font-bold text-center text-white mb-12">Portfolio <span class="text-blue-400">Overview</span></h2>
-      
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <!-- Mathematics -->
-        <div class="bg-gray-900 rounded-xl p-6 shadow-md hover:shadow-blue-800/40 transition">
-          <h3 class="text-2xl font-bold text-blue-400 mb-4">📐 Mathematics</h3>
-          <ul class="space-y-2 text-gray-300 text-sm">
-            <li>• Raymond's Discriminant Test</li>
-            <li>• Raymond Primes</li>
-            <li>• Digit-Prime Structures</li>
-            <li>• New Conjectures in Number Theory</li>
-          </ul>
-          <a href="#math" class="text-blue-400 text-sm font-mono hover:underline mt-3 inline-block">View details →</a>
+        <div class="relative z-10 max-w-4xl text-center px-6">
+            <h1 class="sm:text-6xl text-4xl font-extrabold text-blue-100 leading-tight drop-shadow mb-6">
+                Welcome to <span class="text-blue-400">Thinking Palace</span>
+            </h1>
+            <p class="mb-8 text-blue-200 text-lg max-w-2xl mx-auto">
+                A futuristic haven for minds wired by logic, math dreams, and scientific curiosity.
+                Here, numbers dance, particles collide, and your ideas are never boxed.
+            </p>
+            <p class="font-mono text-blue-300 text-sm mb-6">
+                &gt; currently exploring: <span id="typed-ideas" class="text-blue-500"></span>
+            </p>
+            <a href="#overview"
+                class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-md shadow-lg transition-all duration-300 transform hover:scale-105">
+                🚀 Explore Portfolio
+            </a>
         </div>
+    </section>
 
-        <!-- Science -->
-        <div class="bg-gray-900 rounded-xl p-6 shadow-md hover:shadow-blue-800/40 transition">
-          <h3 class="text-2xl font-bold text-blue-400 mb-4">🔬 Science</h3>
-          <ul class="space-y-2 text-gray-300 text-sm">
-            <li>• Quantum mechanics notes</li>
-            <li>• Relativity explorations</li>
-            <li>• Fundamental forces studies</li>
-            <li>• Original thought experiments</li>
-          </ul>
-          <a href="#science" class="text-blue-400 text-sm font-mono hover:underline mt-3 inline-block">View details →</a>
+    <!-- OVERVIEW SECTION -->
+    <section id="overview" class="bg-gray-950 px-6 py-20">
+        <div class="max-w-screen-xl mx-auto">
+            <h2 class="text-4xl font-bold text-center text-white mb-12">Portfolio <span
+                    class="text-blue-400">Overview</span></h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Mathematics -->
+                <div class="bg-gray-900 rounded-xl p-6 shadow-md hover:shadow-blue-800/40 transition">
+                    <h3 class="text-2xl font-bold text-blue-400 mb-4">📐 Mathematics</h3>
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li>• Raymond's Discriminant Test</li>
+                        <li>• Raymond Primes</li>
+                        <li>• Digit-Prime Structures</li>
+                        <li>• New Conjectures in Number Theory</li>
+                    </ul>
+                    <a href="pages/math.html"
+                        class="text-blue-400 text-sm font-mono hover:underline mt-3 inline-block">View
+                        details →</a>
+                </div>
+
+                <!-- Science -->
+                <div class="bg-gray-900 rounded-xl p-6 shadow-md hover:shadow-blue-800/40 transition">
+                    <h3 class="text-2xl font-bold text-blue-400 mb-4">🔬 Science</h3>
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li>• Quantum mechanics notes</li>
+                        <li>• Relativity explorations</li>
+                        <li>• Fundamental forces studies</li>
+                        <li>• Original thought experiments</li>
+                    </ul>
+                    <a href="#science" class="text-blue-400 text-sm font-mono hover:underline mt-3 inline-block">View
+                        details →</a>
+                </div>
+
+                <!-- Programming -->
+                <div class="bg-gray-900 rounded-xl p-6 shadow-md hover:shadow-blue-800/40 transition">
+                    <h3 class="text-2xl font-bold text-blue-400 mb-4">💻 Programming</h3>
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li>• Banking System in C</li>
+                        <li>• Messaging App (Go/JS)</li>
+                        <li>• OnlyPopcorn (React)</li>
+                        <li>• GraphQL Profile Page</li>
+                    </ul>
+                    <a href="#programming"
+                        class="text-blue-400 text-sm font-mono hover:underline mt-3 inline-block">View details →</a>
+                </div>
+
+                <!-- Articles -->
+                <div class="bg-gray-900 rounded-xl p-6 shadow-md hover:shadow-blue-800/40 transition">
+                    <h3 class="text-2xl font-bold text-blue-400 mb-4">✍️ Articles</h3>
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li>• Personal statements drafts</li>
+                        <li>• Essay reflections</li>
+                        <li>• Applications of math & physics</li>
+                        <li>• Philosophical explorations</li>
+                    </ul>
+                    <a href="#articles" class="text-blue-400 text-sm font-mono hover:underline mt-3 inline-block">View
+                        details →</a>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <!-- Programming -->
-        <div class="bg-gray-900 rounded-xl p-6 shadow-md hover:shadow-blue-800/40 transition">
-          <h3 class="text-2xl font-bold text-blue-400 mb-4">💻 Programming</h3>
-          <ul class="space-y-2 text-gray-300 text-sm">
-            <li>• Banking System in C</li>
-            <li>• Messaging App (Go/JS)</li>
-            <li>• OnlyPopcorn (React)</li>
-            <li>• GraphQL Profile Page</li>
-          </ul>
-          <a href="#programming" class="text-blue-400 text-sm font-mono hover:underline mt-3 inline-block">View details →</a>
+    <!-- WORKS (Detailed cards grouped later) -->
+    <!-- <section id="math" class="bg-black px-6 py-20"> -->
+    <!-- <div class="max-w-screen-2xl mx-auto"> -->
+    <!-- <h2 class="text-3xl font-bold text-white mb-8">📐 Mathematics</h2> -->
+    <!-- <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10"> -->
+    <!-- Example card -->
+    <!-- <article class="bg-gray-900 p-6 rounded-xl shadow-md hover:shadow-blue-800/40 transition"> -->
+    <!-- <h3 class="text-xl font-bold text-white mb-2">Raymond's Discriminant Test</h3> -->
+    <!-- <p class="text-gray-400 text-sm mb-4"> -->
+    <!-- A new algebraic method for testing irrationality of square roots using quadratic discriminants. -->
+    <!-- </p> -->
+    <!-- <a href="pages/discriminant.html" class="text-sm text-blue-400 hover:underline font-mono">Read paper →</a> -->
+    <!-- </article> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </section> -->
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="bg-gradient-to-b from-black via-gray-950 to-black py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-extrabold text-white mb-8">
+                Raymond Ogwel
+            </h2>
+
+            <div class="space-y-6 text-gray-300 text-lg leading-relaxed">
+                <p>
+                    I live at the intersection of <span class="text-blue-400 font-semibold">Mathematics</span>
+                    and <span class="text-green-400 font-semibold">Theoretical Physics</span>,
+                    where abstraction becomes the most powerful tool to decode reality.
+                </p>
+
+                <p>
+                    My work in mathematics pursues hidden order in the apparent chaos of primes,
+                    the structure of irrationality, and the deep patterns that lie beneath number theory.
+                    I seek methods that are not just proofs, but frameworks — blueprints
+                    for navigating infinite landscapes.
+                </p>
+
+                <p>
+                    In physics, I question the boundary of what can be measured and what must be reasoned.
+                    From the irreversibility of time to the entanglement of particles,
+                    I see equations as compressed universes — minimal expressions of infinite complexity.
+                </p>
+
+                <p>
+                    Philosophy is not separate from this work. It provides the discipline to ask the right questions,
+                    and the courage to reject answers that come too easily.
+                    To me, mathematics, physics, and philosophy are one pursuit:
+                    the search for invariants in a shifting universe.
+                </p>
+            </div>
+
+            <div class="mt-12">
+                <blockquote class="italic text-blue-300 border-l-4 border-blue-600 pl-4 text-lg max-w-2xl mx-auto">
+                    “My aim is not calculation, but understanding — the kind that survives when the numbers are stripped
+                    away.”
+                </blockquote>
+            </div>
         </div>
+    </section>
 
-        <!-- Articles -->
-        <div class="bg-gray-900 rounded-xl p-6 shadow-md hover:shadow-blue-800/40 transition">
-          <h3 class="text-2xl font-bold text-blue-400 mb-4">✍️ Articles</h3>
-          <ul class="space-y-2 text-gray-300 text-sm">
-            <li>• Personal statements drafts</li>
-            <li>• Essay reflections</li>
-            <li>• Applications of math & physics</li>
-            <li>• Philosophical explorations</li>
-          </ul>
-          <a href="#articles" class="text-blue-400 text-sm font-mono hover:underline mt-3 inline-block">View details →</a>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-gray-900 px-6 py-20">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">Get in Touch</h2>
+            <p class="text-gray-300 mb-6">Want to collaborate or learn more about my research? Let’s connect.</p>
+            <div class="flex justify-center gap-6">
+                <button onclick="copyToClipboard('raymond.email@example.com')"
+                    class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-md text-white text-sm">📧 Copy Email</button>
+                <button onclick="copyToClipboard('+254700000000')"
+                    class="px-4 py-2 bg-green-600 hover:bg-green-700 rounded-md text-white text-sm">💬 Copy
+                    WhatsApp</button>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- WORKS (Detailed cards grouped later) -->
-  <section id="math" class="bg-black px-6 py-20">
-    <div class="max-w-screen-2xl mx-auto">
-      <h2 class="text-3xl font-bold text-white mb-8">📐 Mathematics</h2>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-        <!-- Example card -->
-        <article class="bg-gray-900 p-6 rounded-xl shadow-md hover:shadow-blue-800/40 transition">
-          <h3 class="text-xl font-bold text-white mb-2">Raymond's Discriminant Test</h3>
-          <p class="text-gray-400 text-sm mb-4">
-            A new algebraic method for testing irrationality of square roots using quadratic discriminants.
-          </p>
-          <a href="pages/discriminant.html" class="text-sm text-blue-400 hover:underline font-mono">Read paper →</a>
-        </article>
-      </div>
-    </div>
-  </section>
+    <footer class="bg-black text-center py-6 text-gray-500 text-sm">
+        © 2025 Raymond Martin | Thinking Palace
+    </footer>
 
-  <!-- CONTACT -->
-  <section id="contact" class="bg-gray-900 px-6 py-20">
-    <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl font-bold text-white mb-6">Get in Touch</h2>
-      <p class="text-gray-300 mb-6">Want to collaborate or learn more about my research? Let’s connect.</p>
-      <div class="flex justify-center gap-6">
-        <button onclick="copyToClipboard('raymond.email@example.com')" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-md text-white text-sm">📧 Copy Email</button>
-        <button onclick="copyToClipboard('+254700000000')" class="px-4 py-2 bg-green-600 hover:bg-green-700 rounded-md text-white text-sm">💬 Copy WhatsApp</button>
-      </div>
-    </div>
-  </section>
-
-  <footer class="bg-black text-center py-6 text-gray-500 text-sm">
-    © 2025 Raymond Martin | Thinking Palace
-  </footer>
-
-  <!-- Scripts -->
-  <script>
-    new Typed('#typed-ideas', {
-      strings: ["quantum entanglement", "Raymond primes", "irrationality tests", "the future of numbers"],
-      typeSpeed: 50,
-      backSpeed: 30,
-      backDelay: 1500,
-      loop: true
-    });
-
-    function copyToClipboard(text) {
-      navigator.clipboard.writeText(text).then(() => {
-        alert("Copied: " + text);
-      });
-    }
-
-    const canvas = document.getElementById("particle-bg");
-    const ctx = canvas.getContext("2d");
-    let particles = [];
-
-    function resizeCanvas() {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    }
-    window.addEventListener("resize", resizeCanvas);
-    resizeCanvas();
-
-    function initParticles() {
-      particles = [];
-      for (let i = 0; i < 80; i++) {
-        particles.push({
-          x: Math.random() * canvas.width,
-          y: Math.random() * canvas.height,
-          dx: (Math.random() - 0.5) * 1,
-          dy: (Math.random() - 0.5) * 1,
-          size: Math.random() * 2 + 1
+    <!-- Scripts -->
+    <script>
+        new Typed('#typed-ideas', {
+            strings: ["quantum entanglement", "Raymond primes", "irrationality tests", "the future of numbers"],
+            typeSpeed: 50,
+            backSpeed: 30,
+            backDelay: 1500,
+            loop: true
         });
-      }
-    }
-    initParticles();
 
-    function animateParticles() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = "rgba(59, 130, 246, 0.7)";
-      particles.forEach(p => {
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-        ctx.fill();
-        p.x += p.dx;
-        p.y += p.dy;
-        if (p.x < 0 || p.x > canvas.width) p.dx *= -1;
-        if (p.y < 0 || p.y > canvas.height) p.dy *= -1;
-      });
-      requestAnimationFrame(animateParticles);
-    }
-    animateParticles();
-  </script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Copied: " + text);
+            });
+        }
+
+        const canvas = document.getElementById("particle-bg");
+        const ctx = canvas.getContext("2d");
+        let particles = [];
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        window.addEventListener("resize", resizeCanvas);
+        resizeCanvas();
+
+        function initParticles() {
+            particles = [];
+            for (let i = 0; i < 80; i++) {
+                particles.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    dx: (Math.random() - 0.5) * 1,
+                    dy: (Math.random() - 0.5) * 1,
+                    size: Math.random() * 2 + 1
+                });
+            }
+        }
+        initParticles();
+
+        function animateParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = "rgba(59, 130, 246, 0.7)";
+            particles.forEach(p => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                ctx.fill();
+                p.x += p.dx;
+                p.y += p.dy;
+                if (p.x < 0 || p.x > canvas.width) p.dx *= -1;
+                if (p.y < 0 || p.y > canvas.height) p.dy *= -1;
+            });
+            requestAnimationFrame(animateParticles);
+        }
+        animateParticles();
+    </script>
 </body>
+
 </html>
