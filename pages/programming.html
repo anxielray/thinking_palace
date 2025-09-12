@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming - Raymond Martin Ogwel</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #161b22;
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 1px solid #30363d;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #58a6ff;
+        }
+
+        .container {
+            flex: 1;
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+            color: #8b949e;
+        }
+
+        .card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #58a6ff;
+        }
+
+        .card p {
+            font-size: 1rem;
+            margin: 1rem 0;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+            color: #ffffff;
+            background-color: #238636;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.2s ease;
+        }
+
+        .card a:hover {
+            background-color: #2ea043;
+        }
+
+        /* Back Home Button */
+        .back-home {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.7rem 1.4rem;
+            background-color: #21262d;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .back-home:hover {
+            background-color: #58a6ff;
+            color: #0d1117;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(88, 166, 255, 0.4);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #161b22;
+            padding: 1.5rem;
+            text-align: center;
+            border-top: 1px solid #30363d;
+            font-size: 0.95rem;
+            color: #8b949e;
+        }
+
+        footer a {
+            color: #58a6ff;
+            margin: 0 0.5rem;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        footer a:hover {
+            color: #79c0ff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Programming</h1>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <p>I code because programming lets me bring the logic of mathematics and the curiosity of science to life — turning abstract ideas into systems, simulations, and tools that push the boundaries of what’s possible.</p>
+        </div>
+
+        <!-- Cards -->
+        <!-- Programming / GitHub Projects Section Cards -->
+
+        <div class="card">
+            <h2>CS50_AI_Python</h2>
+            <p>
+                Coursework from Harvard’s CS50 Artificial Intelligence with Python. Includes assignments and projects
+                building AI agents, problem solving, and implementations with Python.
+            </p>
+            <a href="https://github.com/anxielray/CS50_AI_Python">View Repo →</a>
+        </div>
+
+        <div class="card">
+            <h2>Rubik_cube</h2>
+            <p>
+                Code to solve the Rubik’s Cube, implemented in Golang. Demonstrates algorithm design, search
+                / optimization, and handling state spaces.
+            </p>
+            <a href="https://github.com/anxielray/Rubik_cube">View Repo →</a>
+        </div>
+
+        <div class="card">
+            <h2>Book-reading Tracker</h2>
+            <p>
+                A web-based library management system in HTML. Likely includes cataloging, user interfaces, and book
+                tracking / CRUD operations.
+            </p>
+            <a href="https://github.com/anxielray/LibraryApplication">View Repo →</a>
+        </div>
+
+        <div class="card">
+            <h2>Statistics and Range Calculator</h2>
+            <p>
+                A <strong>Go</strong> program that dynamically reads a stream of integers,
+                computes their mean and standard deviation, and determines the range in which
+                ~99.7% of values lie using the empirical rule. It uses a sliding window to
+                always consider the most recent inputs for real-time statistical insights.
+            </p>
+            <a href="https://github.com/anxielray/Statistical-Guessor" target="_blank">View Repository</a>
+        </div>
+
+
+        <div class="card">
+            <h2>my-ls</h2>
+            <p>
+                A Go implementation resembling the Unix `ls` command (listing directory contents). Likely demonstrates
+                file system traversal, formatting, and efficient I/O.
+            </p>
+            <a href="https://github.com/anxielray/my-ls">View Repo →</a>
+        </div>
+
+        <div class="card">
+            <h2>Tetris Optimizer</h2>
+            <p>
+                A problem-solving project from <strong>01-edu</strong> that explores
+                optimization strategies for the classic game Tetris. The program
+                analyzes possible moves and attempts to determine the most efficient
+                placements to maximize score and minimize gaps.
+            </p>
+            <a href="https://github.com/anxielray/tetris-optimizer" target="_blank">View on GitHub</a>
+        </div>
+
+
+        <div class="card">
+            <h2>Roman Machine</h2>
+            <p>
+                A Golang program that converts decimal numbers into Roman numerals.
+                It handles all standard cases and provides fast conversion to help
+                sharpen your math skills with Roman numeral systems.
+            </p>
+            <a href="https://github.com/anxielray/roman-machine" target="_blank">View Repo →</a>
+        </div>
+
+        <div class="card">
+            <h2>Linear Stats Project</h2>
+            <p>
+                A <strong>Go</strong> program that reads data from a file and computes key
+                statistical metrics: the <em>Linear Regression Line</em> (best-fit line) and
+                the <em>Pearson Correlation Coefficient</em>. It demonstrates the power of
+                algorithmic statistics by modeling relationships between variables and
+                quantifying their strength with precision up to 10 decimal places.
+            </p>
+            <a href="https://github.com/anxielray/Linear-Regression_Correlation-coefficient" target="_blank">View Repository</a>
+        </div>
+
+        <div class="card">
+            <h2>Push-Swap</h2>
+            <p>
+                A challenging algorithmic project in <strong>Go</strong> that sorts integers
+                using only predefined stack operations. It requires implementing two programs:
+                <em>Push-Swap</em>, which generates the shortest sequence of instructions to
+                sort a stack, and <em>Checker</em>, which validates the correctness of the sequence.
+                The project highlights mastery of data structures, optimization, and efficient sorting logic.
+            </p>
+            <a href="https://github.com/anxielray/push-swap" target="_blank">View Repository</a>
+        </div>
+
+        <div class="card">
+            <h2>Impossible Game Series</h2>
+            <p>
+                This project is based on an original mathematical discovery I call
+                <strong>Raymond's 4 Corner Block Problem</strong>. It is implemented as a game,
+                designed to challenge logical reasoning and mathematical intuition through
+                impossible-seeming play mechanics.
+            </p>
+            <a href="https://github.com/anxielray/Impossible-game-series" target="_blank">
+                View Project
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Go-wget</h2>
+            <p>
+                A wget clone implemented in <strong>Golang</strong> that supports
+                downloading files and mirroring websites. It includes features such as
+                rate-limited downloads, custom output options, background downloading
+                with logs, and full website mirroring with link conversion and
+                directory/file-type exclusions. A practical tool for networking,
+                systems, and automation enthusiasts.
+            </p>
+            <a href="https://github.com/anxielray/wget" target="_blank">
+                View Project
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Geometric Shapes Drawing Tool</h2>
+            <p>
+                A <strong>Rust-powered graphics tool</strong> that generates 2D and basic 3D
+                geometric shapes into PNG images. Designed as a modular and extensible
+                foundation for exploring computer graphics or sharpening Rust programming
+                skills, the project integrates seamlessly with <code>main.rs</code> for a
+                smooth coding experience. Perfect for students, developers, and graphics
+                enthusiasts alike.
+            </p>
+            <a href="https://github.com/anxielray/Rust-Drawing" target="_blank">
+                View Project
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>ATM</h2>
+            <p>
+                A <strong>C-based CLI banking system simulator</strong> that mimics the
+                core functionalities of an Automated Teller Machine. Users can create
+                accounts, check balances, deposit, and withdraw funds through a secure,
+                text-based interface. A project designed to strengthen systems
+                programming and command-line interaction skills.
+            </p>
+            <a href="https://github.com/anxielray/ATM" target="_blank">
+                View Project
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Real-time Forum</h2>
+            <p>
+                A <strong>modern forum application</strong> built with Go, WebSockets, and SQLite3.
+                It features <em>real-time messaging, user authentication, story sharing, post
+                    interactions, friend requests,</em> and a sleek <strong>dark-themed UI</strong>.
+                Designed with scalability and developer-friendliness in mind, it demonstrates
+                backend mastery and real-time web integration.
+            </p>
+            <ul>
+                <li>⚡ WebSocket-powered real-time updates</li>
+                <li>🔑 User registration & authentication</li>
+                <li>📝 Post creation, replies, comments, and notifications</li>
+                <li>🎨 Modern dark UI with Go templates</li>
+            </ul>
+            <a href="https://github.com/Wendy-Tabitha/SocialSculpt" target="_blank">
+                View Project
+            </a>
+        </div>
+
+
+
+        <!-- Back Home Button -->
+        <div style="text-align:center;">
+            <a href="/thinking_palace" class="back-home">← Back Home</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+   <footer>
+    <p>&copy; 2025 Raymond Martin | Built with 💡 and Curiosity</p>
+    <p>Physicist | Mathematician | Scientist</p>
+  </footer>
+</body>
+
+</html>
